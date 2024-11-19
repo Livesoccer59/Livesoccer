@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canlı Skorlar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Canlı Skorlar</div>
+        <nav>
+            <ul>
+                <li><a href="#live-scores">Canlı Skorlar</a></li>
+                <li><a href="#standings">Lig Tablosu</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="live-scores">
+            <h1>Canlı Skorlar</h1>
+            <div class="score-table">
+                <div class="match">
+                    <p>Team A <strong>1-0</strong> Team B</p>
+                    <p>45' | Premier Lig</p>
+                </div>
+                <div class="match">
+                    <p>Team C <strong>2-2</strong> Team D</p>
+                    <p>60' | La Liga</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="standings">
+            <h1>Lig Tablosu</h1>
+            <p>Burada lig tabloları gösterilecek.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Canlı Skorlar. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
