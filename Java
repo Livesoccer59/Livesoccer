@@ -1,0 +1,11 @@
+// Basit bir skor simülasyonu
+document.addEventListener("DOMContentLoaded", () => {
+    const matches = document.querySelectorAll(".match");
+    matches.forEach(match => {
+        setInterval(() => {
+            const randomGoal = Math.floor(Math.random() * 3);
+            const newScore = `${randomGoal}-${randomGoal}`;
+            match.querySelector("strong").textContent = newScore;
+        }, 10000);
+    });
+});
